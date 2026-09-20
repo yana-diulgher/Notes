@@ -4,43 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../css/style.css">
    
 </head>
-<header>
-    <div class="headers">
-        <p>Описание
-            <div >
-                <button class="btn">
-                    <img class="icon" src="../ICONS/BaselineSearch.svg" alt="Search" >
-                </button>
-                <button class=" btn">
-                    <img class="icon" src="../ICONS/EllipsisVertical.svg" alt="More" >
-                </button>
-                <button class=" btn">
-                    <img class="icon" src="../ICONS/Bookmark.svg" alt="Bookmark" >
-                </button>
-            </div>
-        </p>
-       
-    </div>
-</header>
-
 
 <body>
-   <div>
-        <button class=" btn">
-            <img class="icon" src="../ICONS/Edit.svg" alt="Edit" >
+    <header>
+       <div class="headers">
+        <button class="btnIcon">
+            <img src="../icons/EllipsisVertical.svg" alt="">
         </button>
-        <button class=" btn">
-            <img class="icon" src="../ICONS/Compose.svg" alt="Compose" >
-        </button>
-   </div>
+        KIIK
+       </div>
+    </header>
 
-    <a href="../HTML/page.html">page</a>
+    <main>
+        <div class="mainInput" id="first">
+            <textarea name="text"  id="edit" placeholder="y"></textarea>
+           
+        </div>
+        
+         <div id="second">
+                <div>
+                    <textarea id="title" name="text" class="title"  placeholder="Название"></textarea>
+                    
+                </div>
+                <div>
+                    <textarea id="note" name="text" class="note"  placeholder="Заметка"></textarea>
+                </div>
+                <button id="btn"> OK</button>
+         </div>
+
+         <div class="box" id="box">
+                <textarea id="innerTitle" class="title"></textarea>
+                <textarea name="" id="innerNote" class="note"></textarea>
+                <button id="btnn"> OK</button>
+         </div>
+       
+    </main>
+   
+    <footer> 
+
+    </footer>
+    <script src="../JavaScript/script.js"></script>
 </body>
 
-<footer>
 
-</footer>
 </html>

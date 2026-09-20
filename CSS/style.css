@@ -1,30 +1,63 @@
+
+body {
+  margin: 0;
+  padding: 0;
+} 
+
+main{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin: 10px;
+}
 .headers{
     background-color: rgba(244, 15, 15, 0.193);
-    color: rgba(44, 215, 14, 0.696);
+    padding: 10px;
+
 }
-.icon{
-   width: 20px;
-   height : 20px;
+
+.btnIcon{
+   width: 50px;
+   height : 50px;
    align-items: center;
    padding:  7px 5px 7px 5px ;
-}
-
-.btn{
-    background-color: rgba(244, 15, 15, 0.193);
-    border-radius: 100%;
-}
-
-.TitleOfNote{
-    color: rgba(44, 215, 14, 0.696);
-    font-size: 20px;
-    font-weight: bold ;
-   width: 100%;
+   border-radius: 20px;
    
 }
-.DescriptionOfNote{
-    color: rgba(44, 215, 14, 0.696);
-    font-size: 16px;
-    height: 20px;
-    size: 16px;
-    width: 100%;
+
+textarea{
+    max-height: 500px;   
+    min-width: 40%; 
+    overflow-y: auto;  /*прокрутка*/
+    resize: none; /*ручное увелю поля*/
+  
 }
+
+.editor{
+    background-color: bisque;
+    margin: 0;
+    max-height: 500px;   
+    min-width: 40%; 
+    overflow-y: auto;  /*прокрутка*/
+    resize: none; /*ручное увелю поля*/
+}
+
+.mainInput{
+   
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin: 10px;
+}
+
+#second{
+  display: none;
+}
+.box{
+  background-color: rgba(223, 223, 152, 0.537);
+  max-height: 200px;
+  max-width: 170px;
+  border: 1px solid;
+ padding: 10px;
+}
+
